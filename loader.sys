@@ -5,6 +5,6 @@
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
-local Games = {[155615604] = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/InputSync/inject.sys/refs/heads/main/prisonlife.sys"))() end, [109530157755211] = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/InputSync/inject.sys/refs/heads/main/liftacube.sys"))() end}
+local Games = {[155615604] = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/InputSync/inject.sys/refs/heads/main/prisonlife.sys"))() end, [109530157755211] = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/InputSync/inject.sys/refs/heads/main/liftacube.sys"))() end, [127634932179327] = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/InputSync/inject.sys/refs/heads/main/kickballtospace.sys"))() end}
 local Load = Games[game.PlaceId]
-if Load then Load() else Player:Kick("Game not supported.\nSupported: Prison Life, Lift a Cube") end
+if Load then Load() else Player:Kick("Game not supported.\nSupported: Prison Life, Lift a Cube,\nKick Ball to Space") end
